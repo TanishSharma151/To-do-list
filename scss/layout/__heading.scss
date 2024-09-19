@@ -1,0 +1,39 @@
+.searchHeading{
+    color: $text-color;
+    margin: 40px;
+    // font-size: 0.8rem;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 2rem;
+    // font-size: 1.5rem;
+}
+
+
+.p1{
+    font-size: 1.2rem;
+}
+
+.enteredText{
+    padding-left: 5px;
+    height: 30px;
+    width: 300px;
+}
+
+.search__btn{
+    border: none;
+    background: blue;
+    height: 30px;
+    width: 49px;
+    // padding: 0 30px;
+    font-size: 1.5rem;
+    color: $text-color;
+    transform: scaleX(-1);
+    cursor: pointer;
+    position: relative;
+    top: 2px;
+}
+
+#sort-options{
+    padding: 5px;
+}

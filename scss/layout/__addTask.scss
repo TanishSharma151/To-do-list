@@ -1,0 +1,44 @@
+.clear__btn{
+    color: $text-color;
+    background: green;
+    font-weight: bolder;
+    padding: 5px 10px;
+    border: none;
+    cursor: pointer;
+}
+
+#submit{
+    margin-top: 50px;
+}
+
+.submit__p{
+    margin: 20px 0;
+    font-weight: bold;
+}
+
+.text_area{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 4rem;
+}
+
+.task__add{
+    width: 1000px;
+    height: 38px;
+    padding-left: 10px;
+    font-size: 15px;
+}
+
+.btn{
+    font-weight: bolder;
+    background: rgb(85, 136, 231);
+    color: $text-color;
+    padding: 10px;
+    border: none;
+    cursor: pointer;
+    width: 70px;
+}
+
+
+

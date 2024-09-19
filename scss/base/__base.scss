@@ -1,0 +1,36 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html{
+    background: $bgcolor;
+    font-family: "Roboto Condensed", sans-serif;
+    min-height: 100vh;
+    margin: 0 100px;
+}
+
+body{
+    color: $text-color;
+
+}
+
+main{
+    background-color: $bgcolor;
+}
+
+h1{
+    color: $text-color;
+    margin: 40px;
+    letter-spacing: 0.2rem;
+    font-size: 3rem;
+}
+
+#display{
+    margin: 40px;
+}
+
+#submit{
+    margin: 50px;
+}

@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>To do list</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="main/css/main.min.css" />
+</head>
+
+<body>
+    <main>
+        <h1 class="center">My to do list</h1>
+
+        <section class="searchHeading">
+
+            <div class="searchHeading__enter">
+
+                <label for="search" class="p1">Search:</label>
+
+                <input type="text" name="search" class="enteredText" placeholder="Search a specific task..." id="search-box">
+                <button class="search__btn" for="" for="search" onclick="searchTasks()">
+                    ⌕
+                </button>
+
+            </div>
+
+            <div class="searchHeading__order">
+
+                <label for="orderBy" class="p1">Order By:</label>
+
+                <select name="orderBy" id="sort-options" onchange="sortTasks()">
+
+                    <option value="oldest">Oldest to Newest</option>
+
+                    <option value="newest">Newest to Oldest</option>
+
+                </select>
+
+            </div>
+
+        </section>
+
+
+        <section class="items">
+
+            <h2 class="head">Things I need to do</h2>
+
+            <p class="para">Check off items once you have completed them...</p>
+
+            <div class="dash"></div>
+
+        </section>
+
+
+        <section id="tasks">
+            <ul id="task-list">
+            </ul>
+
+        </section>
+
+
+        <section id="submit">
+            <button class="clear__btn" onclick="deleteCheckedTasks()">✔ Check cleared items</button>
+            <p class="submit__p">New Task</p>
+
+
+            <div class="text_area">
+                <input type="text" placeholder="What do you want to add? (at least 5 characters)" class="task__add" id="input-box">
+                <button id="vs" class="btn" onclick="addTask()">+ Add</button>
+            </div>
+
+        </section>
+
+    </main>
+
+    <script src="js/main.js"></script>
+
+</body>
+
+</html>
